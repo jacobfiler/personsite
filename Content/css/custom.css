@@ -1,0 +1,76 @@
+﻿.login-format {
+    /*padding-left: 20px;*/
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.contact-form {
+    margin: auto;
+    width: 65%;
+    padding: 20px 0px;
+    margin-bottom: 80px;
+    background-color: #FFFFFF;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border-radius: 25px
+}
+
+    .contact-form textarea {
+        min-height: 10em;
+        resize: none;
+    }
+
+
+.custom-footer {
+    padding: 24px 0px;
+}
+
+.move-up {
+    margin-top: -18em;
+}
+
+.reformat {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    background-color: rgba(0, 0, 0, .35);
+    margin-bottom: 3em;
+    padding: 3em 1.5em;
+    border-radius: 25px
+}
+
+.resume-reformat {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(131,134,0,0.22);
+    background-color: rgba(0, 0, 80, .6);
+    margin-bottom: 3em;
+    padding: 3em 1.5em;
+    border-radius: 25px;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}
+
+
+#resume-h4 {
+    padding-bottom: 30px;
+}
+
+.card-header {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(131,134,0,0.22) !important;
+    margin-bottom: 3em !important;
+    padding: 3em 1.5em !important;
+    border-radius: 25px !important;
+}
+
+
+@media (max-width: 525px) {
+    .move-up {
+        margin-top: -10em;
+    }
+
+    .contact-form {
+        margin: auto;
+        width: 80%;
+        padding: 20px 0px;
+        margin-bottom: 80px;
+        background-color: #FFFFFF;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        border-radius: 25px;
+    }
+}
